@@ -73,6 +73,8 @@ input {
   font-weight: 300;
   color: #333;
   width: 55rem;
+    text-align: center;
+
 }
 
 input::placeholder {
