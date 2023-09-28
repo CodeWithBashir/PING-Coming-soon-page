@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7d537aed1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Coming Soon Page &dash; PING</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <header>
+          <div class="logo">
+            <img src="./images/logo.svg" alt="Logo Image" />
+          </div>
+        </header>
+        <section class="cta">
+          <h1>We are launching <span>soon!</span></h1>
+          <p>Subscribe and get notified</p>
+          <form action="" id="emailForm" onsubmit="return validateEmail()">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email address..."
+            />
+            <span id="emailError"></span>
+
+            <input type="submit" value="Notify Me" class="cta-btn" />
+          </form>
+
+          <img
+            src="./images/illustration-dashboard.png"
+            alt="illustration-dashboard"
+            class="hero-img"
+          />
+        </section>
+      </section>
+      <footer>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+
+        <p>&copy; 2023 PING. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
